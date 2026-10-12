@@ -17,8 +17,6 @@ on:
         type: string
         default: ""
   pull_request:
-  schedule:
-  - cron: "0 0 * * *"   # Run everyday
 
 permissions:
   contents: read
